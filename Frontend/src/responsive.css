@@ -1,0 +1,32 @@
+@media screen and (max-width: 890px) {
+.card-container{
+    grid-template-columns: auto;
+}
+.nav ul {
+    padding: 0;
+}
+.nav button{
+    margin: 0;
+}
+.search input{
+ width: 60%;   
+}
+.search h1{
+ font-size: 30px;   
+}
+.card{
+    width: 310px;
+}
+.copyright{
+    padding: 20px 0;
+    position:static;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .footer{
+        flex-flow: column;
+        gap: 0;
+        height: auto;
+    }
+}

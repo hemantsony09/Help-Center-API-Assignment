@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.nav{
+    padding: 10px;
+    background-color: black;
+ 
+    color: white;
+}
+.nav ul{
+align-items: center;
+    display: flex;    
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.nav button{
+    cursor: pointer;
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 5px;
+    color: white;
+    margin-right:100px;
+    padding: 5px;
+    
+}
+.nav ul li{
+    display: flex;
+}
+.nav img{
+    padding: 0px 10px;
+    height: 20px;
+    filter: invert(1);
+    
+}
+
+.search{
+    height: 330px;
+    background-color: rgb(218, 218, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.search input{
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px gray solid;
+    margin-top: 10px;
+}
+
+
+.search h1{
+    font-size: 40px;
+}
+.card-container{
+    padding: 100px 0;
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    background-color: #F4F6F8;
+    border:1px solid #D1DBE7;
+    border-radius: 10px;
+    
+}
+.card h2{
+    
+    padding: 10px;
+    font-size: 16px;
+    border-bottom:1px solid #D1DBE7;
+}
+.card p{
+    padding: 10px 10px ;
+    line-height: 23px;
+    
+}
+.footer{
+    position: relative;
+    display: flex;
+    gap: 200px;
+    padding-left: 100px ;
+    padding-top: 50px;
+    background-color: black;
+    color :white;
+    height: 300px;
+}
+.footer h3{
+    padding: 10px 0;
+    
+}
+.contect h4{
+    padding-top: 20px ;
+}
+.contect a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    padding: 1px 0;
+    font-size: 14px;
+    cursor: pointer;
+    width: fit-content;
+}
+.copyright img{
+    filter: invert(1);
+    width: 40px;
+}
+.copyright{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+    font-size: 16px;
+    bottom: 50px;
+    right: 100px;
+}
